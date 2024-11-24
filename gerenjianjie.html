@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>个人简介</title>
+  <style>
+	 a:hover .positioned-text1 {
+  color: red;  /* 设置鼠标悬停时文本的颜色（例如红色） */
+}
+			.positioned-text1 {
+			font-family: '行楷', 'KaiTi', '楷体', sans-serif;
+            position: absolute; /* 使用绝对定位 */
+            top: 50px;         /* 距离页面顶部 100px */
+            left: 8%;          /* 距离左边 50%（居中） */
+            transform: translateX(-50%); /* 将文本居中对齐 */
+            font-size: 50px;    /* 设置字体大小 */
+            color: black;         /* 设置字体颜色 */
+        }
+        body {
+            font-family: 'Arial', sans-serif; /* 设置字体 */
+            background-color: #f4f7fa; /* 页面背景色 */
+            margin: 0;
+            padding: 0;
+			overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 40px;
+        }
+
+        table {
+            width: 60%;  /* 设置表格宽度 */
+            margin: 30px auto;  /* 表格居中 */
+            border-radius: 10px;  /* 圆角 */
+            overflow: hidden; /* 防止圆角被边框遮挡 */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* 设置阴影效果 */
+            background: #fff;  /* 设置背景色 */
+            border: none;
+        }
+
+        th, td {
+            padding: 15px;  /* 单元格内边距 */
+            text-align: left;  /* 文本左对齐 */
+            font-size: 30px;  /* 设置字体大小 */
+        }
+
+        th {
+            background-color: #3498db;  /* 表头背景色 */
+            color: #fff;  /* 表头文字颜色 */
+            font-weight: bold;  /* 表头字体加粗 */
+        }
+
+        td {
+            background-color: #f9f9f9;  /* 单元格背景色 */
+            color: #333;  /* 数据文本颜色 */
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f2f2f2;  /* 偶数行背景色 */
+        }
+
+        tr:hover {
+            background-color: #ecf0f1;  /* 鼠标悬停时行的背景色 */
+        }
+
+        td:first-child {
+            font-weight: bold;  /* 第一列加粗字体 */
+            color: #3498db;  /* 第一列文字颜色 */
+        }
+	  img {
+    position: relative;
+    left: 10px;  /* 向右移动50px */
+    top: 0px;   /* 向下移动20px */
+  }
+	  img {
+    position: relative;
+    left: 1050px;  /* 向右移动50px */
+    top: 0px;   /* 向下移动20px */
+  }
+	  span {
+    position: relative;
+    left: 950px;  /* 向右移动50px */
+    top: 0px;   /* 向下移动20px */
+	 font-size: 28px;  
+  }
+    </style>
+</head>
+<body>
+<a href="gerenzhuye.html">
+  <span class="positioned-text1">返回&lt;——</span>
+ </a>
+    <h1>个人简介</h1>
+
+    <table>
+        <tr>
+            <th>姓名</th>
+            <td>陶福泰</td>
+        </tr>
+        <tr>
+            <th>年龄</th>
+            <td>18</td>
+        </tr>
+        <tr>
+            <th>性别</th>
+            <td>男</td>
+        </tr>
+        <tr>
+            <th>职业</th>
+            <td>大学生存研究师，食堂新菜评鉴师，人类睡眠实验师</td>
+        </tr>
+        <tr>
+            <th>兴趣爱好</th>
+            <td>打篮球，打游戏</td>
+        </tr>
+     
+    </table>
+
+
+<div style="position: relative;">
+    <span style="position: absolute; top: 0; left: 1;">照片：</span>
+    <img src="image/touxiang.jpg" width="200" height="300" alt="照片">
+</div>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>高光时刻</title>
+</head>
+<head>
+	<style>
+		body{
+			overflow: hidden;
+			background-color: #16311B; /* 页面背景色 */
+		}
+	.positioned-text1 {
+			font-family: '行楷', 'KaiTi', '楷体', sans-serif;
+            position: absolute; /* 使用绝对定位 */
+            top: 50px;         /* 距离页面顶部 100px */
+            left: 8%;          /* 距离左边 50%（居中） */
+            transform: translateX(-50%); /* 将文本居中对齐 */
+            font-size: 40px;    /* 设置字体大小 */
+            color: black;         /* 设置字体颜色 */
+        }
+		 a:hover .positioned-text1 {
+    color: red;  /* 悬浮时文字颜色变为红色 */
+  }
+	</style>
+	</head>
+<body>
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <video width="1200" height="690" controls>
+        <source src="image/5.mp4" type="video/mp4">
+        您的浏览器不支持 video 标签。
+    </video>
+</div>
+<a href="gerenzhuye.html">
+<span class="positioned-text1">返回&lt;——</span>
+</a>
+	
+</body>
+</html>
